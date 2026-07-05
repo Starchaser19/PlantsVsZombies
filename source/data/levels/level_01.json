@@ -1,0 +1,23 @@
+{
+  "level_id": 1,
+  "name": "白天 — 初试牛刀",
+  "background": "Items/Background/Background_0.jpg",
+  "init_sun": 300,
+  "plant_cards": ["sunflower", "peashooter", "wallnut", "cherrybomb", "potatomine", "snowpea", "repeater"],
+  "waves": [
+    {
+      "announce": false,
+      "zombies": [
+        {"time": 12, "type": "normal", "row": 2},
+        {"time": 22, "type": "normal", "row": 1},
+        {"time": 28, "type": "normal", "row": 3},
+        {"time": 38, "type": "conehead", "row": 0},
+        {"time": 45, "type": "normal", "row": 4},
+        {"time": 50, "type": "normal", "row": 2},
+        {"time": 58, "type": "conehead", "row": 1},
+        {"time": 65, "type": "flag", "row": 2, "count": 3, "interval": 5000},
+        {"time": 80, "type": "conehead", "row": 3}
+      ]
+    }
+  ]
+}

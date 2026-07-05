@@ -1,0 +1,34 @@
+{
+  "level_id": 2,
+  "name": "白天 — 渐入佳境",
+  "background": "Items/Background/Background_0.jpg",
+  "init_sun": 300,
+  "plant_cards": ["sunflower", "peashooter", "wallnut", "cherrybomb", "potatomine", "snowpea", "repeater"],
+  "waves": [
+    {
+      "announce": false,
+      "zombies": [
+        {"time": 8, "type": "normal", "row": 0},
+        {"time": 12, "type": "normal", "row": 4},
+        {"time": 20, "type": "conehead", "row": 2},
+        {"time": 28, "type": "normal", "row": 1},
+        {"time": 32, "type": "normal", "row": 3},
+        {"time": 40, "type": "conehead", "row": 0}
+      ]
+    },
+    {
+      "announce": true,
+      "announce_text": "一大波僵尸正在逼近！",
+      "zombies": [
+        {"time": 60, "type": "flag", "row": 2, "count": 3, "interval": 4000},
+        {"time": 62, "type": "normal", "row": 0},
+        {"time": 65, "type": "normal", "row": 4},
+        {"time": 72, "type": "conehead", "row": 1},
+        {"time": 76, "type": "conehead", "row": 3},
+        {"time": 85, "type": "buckethead", "row": 2},
+        {"time": 92, "type": "normal", "row": 0},
+        {"time": 95, "type": "normal", "row": 4}
+      ]
+    }
+  ]
+}

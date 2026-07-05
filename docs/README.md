@@ -10,6 +10,7 @@
 | 02 | [technical-spec](./02-technical-spec.md) | 技术选型、目录结构、关键设计决策、性能策略 |
 | 03 | [game-design](./03-game-design.md) | GDD：植物/僵尸属性表、关卡设计、阳光经济、碰撞规则 |
 | 04 | [roadmap](./04-roadmap.md) | 分阶段实现路线图、里程碑、可交付物 |
+| 05 | [game-params](./05-game-params.md) | **🆕 游戏参数速查**：所有可调数值的当前值与修改位置 |
 
 ## 参考项目分析
 

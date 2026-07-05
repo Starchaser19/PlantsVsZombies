@@ -19,7 +19,7 @@ def main() -> None:
     # ── 初始化 Pygame ─────────────────────────────
     pygame.init()
     pygame.display.set_caption(WINDOW_TITLE)
-    screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+    screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.NOFRAME)
     clock = pygame.time.Clock()
 
     # ── 初始化状态机 ──────────────────────────────

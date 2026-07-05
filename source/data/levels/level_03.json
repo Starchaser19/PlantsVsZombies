@@ -1,0 +1,43 @@
+{
+  "level_id": 3,
+  "name": "白天 — 终极挑战",
+  "background": "Items/Background/Background_0.jpg",
+  "init_sun": 300,
+  "plant_cards": ["sunflower", "peashooter", "wallnut", "cherrybomb", "potatomine", "snowpea", "repeater"],
+  "waves": [
+    {
+      "announce": false,
+      "zombies": [
+        {"time": 5, "type": "normal", "row": 0},
+        {"time": 8, "type": "normal", "row": 4},
+        {"time": 14, "type": "conehead", "row": 2},
+        {"time": 20, "type": "normal", "row": 1},
+        {"time": 24, "type": "conehead", "row": 3}
+      ]
+    },
+    {
+      "announce": true,
+      "announce_text": "一大波僵尸正在逼近！",
+      "zombies": [
+        {"time": 45, "type": "flag", "row": 2, "count": 4, "interval": 3000},
+        {"time": 48, "type": "conehead", "row": 0},
+        {"time": 52, "type": "conehead", "row": 4},
+        {"time": 58, "type": "normal", "row": 1},
+        {"time": 62, "type": "normal", "row": 3},
+        {"time": 70, "type": "buckethead", "row": 2}
+      ]
+    },
+    {
+      "announce": true,
+      "announce_text": "最终一波！",
+      "zombies": [
+        {"time": 90, "type": "flag", "row": 0, "count": 3, "interval": 3000},
+        {"time": 92, "type": "flag", "row": 4, "count": 3, "interval": 3000},
+        {"time": 98, "type": "buckethead", "row": 1},
+        {"time": 100, "type": "buckethead", "row": 3},
+        {"time": 108, "type": "conehead", "row": 2, "count": 3, "interval": 2500},
+        {"time": 118, "type": "buckethead", "row": 2}
+      ]
+    }
+  ]
+}
